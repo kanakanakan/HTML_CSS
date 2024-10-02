@@ -1,0 +1,136 @@
+@charset "utf-8";
+
+body {
+    font-size: 14px;
+    font-family: "Times New Roman", "YuMincho", "Hiragino Mincho ProN", "Yu Mincho", "MS PMincho", serif;
+    line-height: 1.7;
+    letter-spacing: 0.05em;
+    color: #fff;
+}
+
+.inner {
+    max-width: 960px;
+    width: 86.48%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    vertical-align: bottom;
+}
+
+/* header */
+header h1 {
+    margin: 40px;
+    font-size: 40px;
+    font-weight: bold;
+    color: #1E1E1E;
+    text-align: center;
+}
+
+/* about */
+.about {
+    margin-bottom: 100px;
+    background: url(./images/bg_main.png) no-repeat center /cover;
+}
+
+/*
+.about .tag {
+
+} */
+
+.about h2 {
+    padding-bottom: 30px;
+    font-size: 18px;
+}
+
+.about h3 {
+    font-size: 36px;
+}
+
+.about .phrase {
+    padding: 40px;
+    color: #1E1E1E;
+    width: 343px;
+    /* background-color: #fff; */
+}
+
+/* discussion */
+
+.discussion h2 {
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #1E1E1E;
+
+}
+
+.discussion h2::before {
+    content: "KUMONが向き合うもの";
+    display: block;
+    width: 194px;
+    padding: 8px 15px;
+    font-size: 14px;
+    color: #fff;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 25px;
+    background-color: #72C9F3;
+}
+
+.discussion h2::after {
+    display: block;
+    width: 80px;
+    content: "";
+    border-bottom: #000 1px solid;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+}
+
+.discussion . {
+    position: relative;
+}
+
+.discussion .tag {
+    display: flex;
+    margin-bottom: 50px;
+    color: #000;
+}
+
+.tag li {
+    padding-left: 10px;
+    background-color: #F5F5F5;
+}
+
+.first_question {
+    position: absolute;
+    padding: 20px;
+    bottom: -180px;
+    background-color: #000;
+    opacity: 0.8;
+}
+
+.second_question {
+    position: absolute;
+    padding: 20px;
+    bottom: -20px;
+    background-color: #000;
+    opacity: 0.8;
+
+}
+
+/* footer */
+
+footer {
+    padding: 100px 0;
+    background-color: #1E1E1E;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+footer .info {
+    margin-bottom: 100px;
+}
