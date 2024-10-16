@@ -11,72 +11,93 @@
 
 <body>
     <header>
-        <div class="header_inner"><img src="./images/img_logo.png" alt=""></div>
+        <div class="header__inner">
+            <h1><img src="./images/img_logo.png" alt=""></h1>
+        </div>
     </header>
+
     <main>
         <section class="news">
-            <h1 class="news__title">MORE NEWS</h1>
             <div class="news__inner">
-                <div class="news_info unit">
-                    <div class="unit__catch">TRAVEL</div>
-                    <h2 class="unit__title">Subtitle
-                    </h2>
-                    <p class="unit__text">Lorem ipsum dolor sit amet, in eam odio amet, vix id nullam
-                        detracto, vidit vituperatoribus duo id. Affert detraxit
-                        voluptatum vis eu, inermis eloquentiam.
-                    </p>
-                    <div class="unit__time"><img src="./images/icon_time.png" alt="">2m ago</div>
-                </div>
+                <h2 class="news__title">MORE NEWS</h2>
+                <div class="news__list">
+                    <article class="news__item unit">
+                        <div class="unit__catch">TRAVEL</div>
+                        <h2 class="unit__title">Subtitle
+                        </h2>
+                        <p class="unit__text">Lorem ipsum dolor sit amet, in eam odio amet, vix id nullam
+                            detracto, vidit vituperatoribus duo id. Affert detraxit
+                            voluptatum vis eu, inermis eloquentiam.
+                        </p>
+                        <p class="time"><img src="./images/icon_time.png" alt="">2m ago
+                        </p>
+                    </article>
 
-                <div class="news_info unit">
-                    <div class="unit__catch">TECHNOLOGY</div>
-                    <h2 class="unit__title">Subtitle
-                    </h2>
-                    <p class="unit__text">Lorem ipsum dolor sit amet, in eam odio amet, vix id nullam
-                        detracto, vidit vituperatoribus duo id. Affert detraxit
-                        voluptatum vis eu, inermis eloquentiam.
-                    </p>
-                    <div class="unit__time"><img src="./images/icon_time.png" alt="">1h ago</div>
-                </div>
+                    <article class="news__item unit">
+                        <div class="unit__catch">TECHNOLOGY</div>
+                        <h2 class="unit__title">Subtitle
+                        </h2>
+                        <p class="unit__text">Lorem ipsum dolor sit amet, in eam odio amet, vix id nullam
+                            detracto, vidit vituperatoribus duo id. Affert detraxit
+                            voluptatum vis eu, inermis eloquentiam.
+                        </p>
+                        <p class="time"><img src="./images/icon_time.png" alt="">1h ago</p>
+                    </article>
 
-                <div class="news_info unit">
-                    <div class="unit__catch">PHOTO</div>
-                    <h2 class="unit__title">Subtitle</h2>
-                    <p class="unit__text">Lorem ipsum dolor sit amet, in eam odio amet, vix id nullam
-                        detracto, vidit vituperatoribus duo id. Affert detraxit
-                        voluptatum vis eu, inermis eloquentiam.
-                    </p>
-                    <div class="unit__time"><img src="./images/icon_time.png" alt="">1d ago</div>
-                </div>
+                    <article class="news__item unit">
+                        <div class="unit__catch">PHOTO</div>
+                        <h2 class="unit__title">Subtitle</h2>
+                        <p class="unit__text">Lorem ipsum dolor sit amet, in eam odio amet, vix id nullam
+                            detracto, vidit vituperatoribus duo id. Affert detraxit
+                            voluptatum vis eu, inermis eloquentiam.
+                        </p>
+                        <p class="time"><img src="./images/icon_time.png" alt="">1d ago
+                        </p>
+                    </article>
 
-                <div class="news_info unit">
-                    <div class="unit__catch">VIDEO</div>
-                    <h2 class="unit__title">Subtitle</h2>
-                    <p class="unit__text">Lorem ipsum dolor sit amet, in eam odio amet, vix id nullam
-                        detracto, vidit vituperatoribus duo id. Affert detraxit
-                        voluptatum vis eu, inermis eloquentiam.
-                    </p>
-                    <div class="unit__time"><img src="./images/icon_time.png" alt="">3d ago</div>
+                    <article class="news__item unit">
+                        <div class="unit__catch">VIDEO</div>
+                        <h2 class="unit__title">Subtitle</h2>
+                        <p class="unit__text">Lorem ipsum dolor sit amet, in eam odio amet, vix id nullam
+                            detracto, vidit vituperatoribus duo id. Affert detraxit
+                            voluptatum vis eu, inermis eloquentiam.
+                        </p>
+                        <p class="time"><img src="./images/icon_time.png" alt="">3d ago</p>
+                    </article>
                 </div>
             </div>
         </section>
 
         <section class="trending">
-            <h1 class="news__title">TRENDING</h1>
-            <div class="trending__list">
-                <div class="trending__item card">
-                    <img src="./images/pic_trending01.png" alt="">
-                    <h2 class="card__title">Dolore magna aliqua</h2>
-                    <p class="card__text">Lorem ipsum dolor sit amet, ipsum labitur lucilius
-                        mel id, ad has appareat.</p>
-                    <a href="#" class="card__btn">READ MORE</a>
-                </div>
+            <div class="trending__inner">
+                <h2 class="news__title">TRENDING</h2>
+                <div class="trending__list">
+                    <article class="trending__item card">
+                        <img src="./images/pic_trending01.png" alt="">
+                        <div class="card__body">
+                            <h3 class="card__title">Dolore magna aliqua</h3>
+                            <p class="card__text">Lorem ipsum dolor sit amet, ipsum labitur lucilius
+                                mel id, ad has appareat.</p>
+                            <a class="btn" href="#" class="card__btn">READ MORE</a>
+                        </div>
+                    </article>
 
+                    <article class="trending__item card">
+                        <img src="./images/pic_trending02.png" alt="">
+                        <div class="card__body">
+                            <h3 class="card__title">Morbi eleifend a libero</h3>
+                            <p class="card__text">Lorem ipsum dolor sit amet, ipsum labitur lucilius
+                                mel id, ad has appareat.</p>
+                            <a class="btn" href="#" class="card__btn">READ MORE</a>
+                        </div>
+                    </article>
+                </div>
             </div>
         </section>
     </main>
+
     <footer>
-        <div class="footer_inner"><small>TRIDENT college All Rights Reserved.</small></div>
+        <div class="footer__inner"><small>TRIDENT college All Rights Reserved.</small></div>
     </footer>
 </body>
 
