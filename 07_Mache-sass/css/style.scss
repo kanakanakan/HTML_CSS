@@ -263,11 +263,13 @@ img {
             }
         }
 
-        &:nth-child(odd) .post__title {
-            margin-left: auto;
+        &:nth-child(odd) {
+            .post__title {
+                margin-left: auto;
 
-            @include m-query(desktop) {
-                margin-left: 0%;
+                @include m-query(desktop) {
+                    margin-left: 0%;
+                }
             }
         }
 
