@@ -19,7 +19,7 @@
                     <li class="nav__item">VPS hosting</li>
                     <li class="nav__item">Shared hosting</li>
                     <li class="nav__item">Domains</li>
-                    <li class="nav__item">About us</li>
+                    <li class="nav__item about">About us</li>
                     <li class="nav__item">Contact</li>
                 </ul>
             </nav>
@@ -29,9 +29,12 @@
     <main>
         <section class="mainvisual">
             <div class="mainvisual__inner">
-                <h2 class="mainvisual__title">Fast performance, uptime 99% guarantee</h2>
-                <p class="mainvisual__text">Curabitur augue sem, mollis vel purus sit amet, elementum molestie urna.
-                    Vivamus felis orci, egestas sed massa sit amet, ultrices venenatis lectus.</p>
+                <div class="mainvisual__header">
+                    <h2 class="mainvisual__title">Fast performance, uptime 99% guarantee</h2>
+                    <p class="mainvisual__text">Curabitur augue sem, mollis vel purus sit amet, elementum molestie urna.
+                        Vivamus felis orci, egestas sed massa sit amet, ultrices venenatis lectus.
+                    </p>
+                </div>
                 <ul class="mainvisual__icon">
                     <li class="mainvisual__pic"><img src="./images/icon_facebook.png" alt="facebook"></li>
                     <li class="mainvisual__pic"><img src="./images/icon_twitter.png" alt="twitter"></li>
@@ -43,30 +46,34 @@
         <section class="Advantages">
             <div class="Advantages__inner">
                 <h2 class="Advantages__title">Advantages</h2>
-                <dl class="Advantages__item card">
-                    <div class="Advantages__pic">
-                        <img src="./images/img_advantages01.png" alt="">
-                    </div>
-                    <dt class="card__title">Fast, secure and always online.</dt>
-                    <dd class="card__text">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
-                        eirmod
-                        tempor invidunt ut labore et dolore
-                        magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea
-                        rebum.
-                    </dd>
-                    <a class="btn" href="#">Order now ></a>
-                    <div class="Advantages__pic">
-                        <img src="./images/img_advantages02.png" alt="">
-                    </div>
-                    <dt class="card__title">Data providers.</dt>
-                    <dd class="card__text">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
-                        eirmod
-                        tempor invidunt ut labore et dolore
-                        magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea
-                        rebum.
-                    </dd>
-                    <a class="btn" href="#">Order now ></a>
-            </div>
+                <div class="Advantages__list">
+                    <dl class="Advantages__item card">
+                        <div class="Advantages__pic">
+                            <img src="./images/img_advantages01.png" alt="">
+                        </div>
+                        <dt class="card__title">Fast, secure and always online.</dt>
+                        <dd class="card__text">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
+                            eirmod
+                            tempor invidunt ut labore et dolore
+                            magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea
+                            rebum.
+                        </dd>
+                        <a class="btn" href="#">Order now ></a>
+                    </dl>
+                    <dl class="Advantages__item card">
+                        <div class="Advantages__pic">
+                            <img src="./images/img_advantages02.png" alt="">
+                        </div>
+                        <dt class="card__title">Data providers.</dt>
+                        <dd class="card__text">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
+                            eirmod
+                            tempor invidunt ut labore et dolore
+                            magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea
+                            rebum.
+                        </dd>
+                        <a class="btn" href="#">Order now ></a>
+                    </dl>
+                </div>
             </div>
         </section>
 
@@ -74,18 +81,21 @@
             <div class="Features__inner">
                 <h2 class="Features__title">Features</h2>
                 <div class="Features__item unit">
-                    <dl class="Features__list">
-                        <dt class="Features__subtitle">Close security gaps</dt>
-                        <dd class="Features__text">Najnoviji hardware uz procesore zadnje generacije, te veliki izbor
-                            vrhunskih značajki jamstvo su stabilnosti i brzine.</dd>
-                    </dl>
+                    <div>
+                        <dl class="Features__list">
+                            <dt class="Features__subtitle">Close security gaps</dt>
+                            <dd class="Features__text">Najnoviji hardware uz procesore zadnje generacije, te veliki izbor
+                                vrhunskih značajki jamstvo su stabilnosti i brzine.</dd>
+                        </dl>
+                        <ul class="Features__alltag">
+                            <li class="Features__tag"><a href="#">VPS hosting</a></li>
+                            <li class="Features__tag"><a href="#">Shared hosting</a></li>
+                            <li class="Features__tag"><a href="#">Domains</a></li>
+                            <li class="Features__tag"><a href="#">Other</a></li>
+                        </ul>
+                    </div>
 
-                    <ul class="Features__alltag">
-                        <li class="Features__tag">VPS hosting</li>
-                        <li class="Features__tag">Shared hosting</li>
-                        <li class="Features__tag">Domains</li>
-                        <li class="Features__tag">Other</li>
-                    </ul>
+
                 </div>
 
                 <div class="Features__pic"><img src="./images/pic_features01.png" alt=""></div>
@@ -98,8 +108,8 @@
                     </dl>
 
                     <ul class="Features__alltag">
-                        <li class="Features__tag">VPS hosting</li>
-                        <li class="Features__tag">Shared hosting</li>
+                        <li class="Features__tag"><a href="#">VPS hosting</a></li>
+                        <li class="Features__tag"><a href="#">Shared hosting</a></li>
                     </ul>
                 </div>
 
@@ -113,9 +123,9 @@
                     </dl>
 
                     <ul class="Features__alltag">
-                        <li class="Features__tag">Shared hosting</li>
-                        <li class="Features__tag">Domains</li>
-                        <li class="Features__tag">Other</li>
+                        <li class="Features__tag"><a href="#">Shared hosting</a></li>
+                        <li class="Features__tag"><a href="#">Domains</a></li>
+                        <li class="Features__tag"><a href="#">Other</a></li>
                     </ul>
                 </div>
 
@@ -129,12 +139,18 @@
             <div class="contact">
                 <h2 class="contact__title">Contact us</h2>
                 <dl class="contact__list">
-                    <dt class="contact_category">Address.</dt>
-                    <dd class="contact__text">ZenHost d.o.o. Some Adress 32, City</dd>
-                    <dt class="contact__category">Phone.</dt>
-                    <dd class="contact__text">+385 1 55234234</dd>
-                    <dt class="contact__category">Mail.</dt>
-                    <dd class="contact__text">hello@zenhosast.com</dd>
+                    <div class="contact__item">
+                        <dt class="contact_category">Address.</dt>
+                        <dd class="contact__text">ZenHost d.o.o. Some Adress 32, City</dd>
+                    </div>
+                    <div class="contact__item">
+                        <dt class="contact__category">Phone.</dt>
+                        <dd class="contact__text">+385 1 55234234</dd>
+                    </div>
+                    <div class="contact__item">
+                        <dt class="contact__category">Mail.</dt>
+                        <dd class="contact__text">hello@zenhosast.com</dd>
+                    </div>
                 </dl>
             </div>
             <small class="footer__copy">© 2022 Zenhost</small>
