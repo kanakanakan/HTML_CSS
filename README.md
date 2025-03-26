@@ -1,1 +1,1 @@
-<img src="./images/bg_mainvisual.jpg">
+# HTML_CSS 授業課題作品
